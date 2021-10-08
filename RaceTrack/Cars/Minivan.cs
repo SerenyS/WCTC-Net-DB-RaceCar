@@ -14,6 +14,10 @@ namespace RaceTrack.RaceTrack.Cars
             TopSpeed = 80;
         }
 
+        public override void StopEngine(){
+             Console.WriteLine($"The {Name} has stopped");
+        }
+
         public override void StartEngine()
         {
             Console.WriteLine($"The {Name} engine starts");
